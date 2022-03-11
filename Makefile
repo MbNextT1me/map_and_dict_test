@@ -1,8 +1,8 @@
 run: map dict
 
 map:
-	g++ main.cpp -o main.exe
-	main.exe
+	g++ main.cpp -o main
+	main
 
 dict:
 	python ./main.py
